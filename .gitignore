@@ -1,1 +1,25 @@
+__pycache__/
 
+.env
+
+*.db
+
+*.sqlite
+
+*.csv
+
+*.xlsx
+
+*.pdf
+
+*.log
+
+.vscode/
+
+.idea/
+
+.streamlit/
+
+.DS_Store
+
+*.pyc
