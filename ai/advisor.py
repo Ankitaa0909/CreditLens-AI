@@ -1,28 +1,30 @@
-import os
-import google.generativeai as genai
-from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv()
-
-API_KEY = os.getenv("GEMINI_API_KEY")
-
-if not API_KEY:
-    raise ValueError("GEMINI_API_KEY not found in .env file")
-
-genai.configure(api_key=API_KEY)
-
-model = genai.GenerativeModel("gemini-2.5-flash")
+from ai.gemini import ask_gemini
+from ai.prompts import FINANCIAL_ANALYSIS_PROMPT
 
 
-def ask_gemini(prompt):
+def generate_ai_advice(
+    score,
+    gst_score,
+    revenue_score,
+    upi_score,
+    cashflow_score,
+    employee_score,
+    risk,
+    loan,
+):
     """
-    Send prompt to Gemini and return response.
+    Generate AI financial analysis.
     """
 
-    try:
-        response = model.generate_content(prompt)
-        return response.text
+    prompt = FINANCIAL_ANALYSIS_PROMPT.format(
+        score=score,
+        gst_score=gst_score,
+        revenue_score=revenue_score,
+        upi_score=upi_score,
+        cashflow_score=cashflow_score,
+        employee_score=employee_score,
+        risk=risk,
+        loan=loan,
+    )
 
-    except Exception as e:
-        return f"Error: {str(e)}"
+    return ask_gemini(prompt)
