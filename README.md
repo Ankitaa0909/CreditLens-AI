@@ -1,4 +1,4 @@
-# CreditLens AI – MSME Financial Health Copilot
+# 🏦 CreditLens AI – MSME Financial Health Copilot
 
 <p align="center">
   <img src="./assets/logo.png" alt="CreditLens AI Logo" width="180">
@@ -11,7 +11,27 @@
 
 ---
 
-## Overview
+# 🌐 Live Demo
+
+### 🚀 Application
+
+**AWS EC2 Deployment**
+
+**http://http://100.56.97.234/:8501**
+
+> **Note:** The application is hosted on AWS EC2. If the instance is stopped for maintenance or cost optimization, the demo may be temporarily unavailable.
+
+---
+
+# 📂 GitHub Repository
+
+**Repository**
+
+https://github.com/Ankitaa0909/CreditLens-AI
+
+---
+
+## 📌 Overview
 
 CreditLens AI is an AI-powered Financial Health Copilot designed to help banks assess the creditworthiness of **New-to-Credit (NTC)** and **New-to-Bank (NTB)** MSMEs using alternate financial data instead of relying solely on traditional financial statements.
 
@@ -19,7 +39,7 @@ The platform aggregates financial information from multiple sources such as **GS
 
 ---
 
-## Problem Statement
+## 🎯 Problem Statement
 
 **Problem Statement 3 – Financial Health Score**
 
@@ -35,26 +55,26 @@ CreditLens AI addresses this challenge by leveraging alternate financial data to
 
 ---
 
-# Key Features
+# ✨ Key Features
 
-- Financial Health Score (0–100)
-- AI Credit Officer (LLM-powered assistant)
-- Cash Flow Analysis
-- GST Compliance Analysis
-- UPI Transaction Insights
-- Business Growth Analysis
-- Loan Readiness Score
-- Personalized Loan Recommendations
-- Risk Radar Dashboard
-- What-If Financial Simulator
-- Banker Portfolio Dashboard
-- Explainable AI Recommendations
+- 📊 Financial Health Score (0–100)
+- 🤖 AI Credit Officer (LLM-powered assistant)
+- 💰 Cash Flow Analysis
+- 📑 GST Compliance Analysis
+- 💳 UPI Transaction Insights
+- 📈 Business Growth Analysis
+- 🏦 Loan Readiness Score
+- 💡 Personalized Loan Recommendations
+- 🚨 Risk Radar Dashboard
+- 🔮 What-If Financial Simulator
+- 👨‍💼 Banker Portfolio Dashboard
+- 🧠 Explainable AI Recommendations
 
 ---
 
-# System Workflow
+# 🏗️ System Workflow
 
-```
+```text
 MSME User
       │
       ▼
@@ -82,7 +102,23 @@ Interactive Dashboard
 
 ---
 
-# Technology Stack
+# 🏛️ System Architecture
+
+> Add your architecture diagram here after creating it.
+
+```text
+architecture/system_architecture.png
+```
+
+Example:
+
+```markdown
+![System Architecture](architecture/system_architecture.png)
+```
+
+---
+
+# 🛠 Technology Stack
 
 | Layer | Technology |
 |--------|------------|
@@ -98,11 +134,10 @@ Interactive Dashboard
 
 ---
 
-# Folder Structure
+# 📁 Folder Structure
 
-```
+```text
 creditlens-ai/
-
 │
 ├── app.py
 ├── requirements.txt
@@ -113,43 +148,18 @@ creditlens-ai/
 ├── .gitignore
 │
 ├── ai/
-│   ├── gemini.py
-│   └── prompts.py
-│
-├── data/
-│   ├── sample_gst.csv
-│   ├── sample_upi.csv
-│   ├── sample_bank_statement.csv
-│   └── sample_epfo.csv
-│
-├── models/
-│   ├── health_score.py
-│   ├── recommendation.py
-│   └── risk_prediction.py
-│
-├── pages/
-│   ├── Dashboard.py
-│   ├── Upload.py
-│   ├── LoanAdvisor.py
-│   ├── RiskAnalysis.py
-│   └── Simulator.py
-│
-├── utils/
-│   ├── preprocessing.py
-│   ├── parser.py
-│   └── charts.py
-│
+├── architecture/
 ├── assets/
-│   └── logo.png
-│
-└── screenshots/
+├── data/
+├── models/
+├── pages/
+├── screenshots/
+└── utils/
 ```
 
 ---
 
-# Financial Health Score Model
-
-The Financial Health Score is calculated using multiple business indicators.
+# 📈 Financial Health Score Model
 
 | Parameter | Weight |
 |------------|---------|
@@ -160,26 +170,26 @@ The Financial Health Score is calculated using multiple business indicators.
 | Liquidity | 10% |
 | Business Stability | 5% |
 
-Final Score = Weighted Average of all financial indicators.
+**Final Score = Weighted Average of all financial indicators**
 
 ---
 
-# AI Modules
+# 🤖 AI Modules
 
 ## AI Credit Officer
 
 Provides natural language explanations for:
 
-- Why a business received a particular score
+- Business strengths
 - Risk factors
 - Loan eligibility
-- Suggestions to improve financial health
+- Financial improvement suggestions
 
 ---
 
 ## Loan Recommendation Engine
 
-Recommends suitable loan products based on:
+Recommends loan products based on:
 
 - Financial Health Score
 - Repayment Capacity
@@ -195,19 +205,19 @@ Allows bankers to simulate different business scenarios.
 
 Examples:
 
-- Increase revenue by 15%
+- Increase revenue
 - Delay GST filing
 - Increase expenses
 - Hire more employees
 - Reduce UPI collections
 
-The platform recalculates the Financial Health Score instantly.
+The Financial Health Score updates instantly.
 
 ---
 
 ## Risk Radar
 
-The system evaluates:
+Evaluates:
 
 - Compliance Risk
 - Liquidity Risk
@@ -218,7 +228,7 @@ The system evaluates:
 
 ---
 
-# Dashboard Modules
+# 📊 Dashboard Modules
 
 ### MSME Dashboard
 
@@ -239,23 +249,63 @@ The system evaluates:
 
 ---
 
-# Installation
+# 📸 Screenshots
 
-Clone the repository.
+> Replace these placeholders with actual screenshots after completing the application.
 
-```bash
-git clone https://github.com/<your-username>/creditlens-ai.git
+```markdown
+![Home](screenshots/home.png)
 
-cd creditlens-ai
+![Upload](screenshots/upload.png)
+
+![Dashboard](screenshots/dashboard.png)
+
+![AI Advisor](screenshots/ai_advisor.png)
+
+![Loan Recommendation](screenshots/loan_recommendation.png)
+
+![Banker Dashboard](screenshots/banker_dashboard.png)
 ```
 
-Install dependencies.
+---
+
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Ankitaa0909/CreditLens-AI.git
+
+cd CreditLens-AI
+```
+
+Create virtual environment
+
+```bash
+python3 -m venv venv
+```
+
+Activate
+
+Linux
+
+```bash
+source venv/bin/activate
+```
+
+Windows
+
+```powershell
+venv\Scripts\activate
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the application.
+Run
 
 ```bash
 streamlit run app.py
@@ -263,34 +313,43 @@ streamlit run app.py
 
 ---
 
-# Future Scope
+# ☁️ Deployment
+
+The application is deployed on an **AWS EC2 Ubuntu Server** using:
+
+- Ubuntu Server
+- Python 3.12
+- Streamlit
+- GitHub
+- Virtual Environment
+
+---
+
+# 🔮 Future Scope
 
 - Account Aggregator (AA) Integration
 - OCEN Integration
 - ULI Integration
 - AI Fraud Detection
-- Real-Time Banking APIs
-- Multi-language Support
 - OCR for Financial Documents
+- Real-Time Banking APIs
 - Automated Credit Underwriting
 - Credit Monitoring Alerts
 
 ---
 
-# Demo
+# 🎥 Demo Workflow
 
-The demonstration follows this workflow:
-
-1. Upload MSME financial data
+1. Upload MSME Financial Data
 2. Generate Financial Health Score
-3. View AI-generated recommendations
-4. Simulate business scenarios
-5. Receive personalized loan suggestions
-6. Monitor risk using the Banker Dashboard
+3. Review AI Insights
+4. Simulate Business Scenarios
+5. View Loan Recommendations
+6. Analyze Banker Dashboard
 
 ---
 
-# Disclaimer
+# ⚠️ Disclaimer
 
 This project has been developed solely for the **IDBI Innovate Hackathon 2026**.
 
@@ -300,15 +359,18 @@ No real customer banking information is stored or processed.
 
 ---
 
-# Authors
+# 👩‍💻 Author
 
-**<Ankita Kadam>**
+**Ankita Kadam**
 
-Cloud Engineer | AI Enthusiast | DevOps Engineer
+Cloud Engineer | DevOps Engineer | AI Enthusiast
+
+GitHub:
+https://github.com/Ankitaa0909
 
 ---
 
-# Acknowledgements
+# 🙏 Acknowledgements
 
 - IDBI Bank
 - Hack2Skill
@@ -321,9 +383,16 @@ Cloud Engineer | AI Enthusiast | DevOps Engineer
 
 ---
 
-## License
+# 📜 License
 
 This project is licensed under the MIT License.
 
 ---
-**Made with ❤️ for IDBI Innovate Hackathon 2026**
+
+<p align="center">
+
+⭐ If you found this project useful, consider giving it a star!
+
+Made with ❤️ for IDBI Innovate Hackathon 2026
+
+</p>
