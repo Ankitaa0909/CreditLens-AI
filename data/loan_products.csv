@@ -1,0 +1,9 @@
+LoanName,MinimumScore,MaximumAmount,InterestRate,Tenure,EligibleRisk
+Working Capital Loan,85,2500000,9.20,5 Years,Low
+Business Expansion Loan,75,1500000,10.10,4 Years,Low
+Equipment Finance,70,1000000,10.80,5 Years,Medium
+MSME Growth Loan,65,800000,11.20,4 Years,Medium
+Digital Business Loan,60,500000,11.80,3 Years,Medium
+Micro Enterprise Loan,50,300000,12.40,3 Years,High
+Startup Support Loan,45,200000,12.80,2 Years,High
+Emergency Business Loan,35,100000,13.50,2 Years,High
