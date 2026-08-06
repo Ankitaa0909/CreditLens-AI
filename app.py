@@ -1,15 +1,10 @@
-st.set_page_config()
+import streamlit as st
 
-Sidebar
+st.set_page_config(
+    page_title="CreditLens AI",
+    page_icon="💳",
+    layout="wide"
+)
 
-Home
-
-Upload Data
-
-Dashboard
-
-Loan Advisor
-
-What-if Simulator
-
-About
+st.title("CreditLens AI")
+st.write("AI-Powered MSME Financial Intelligence Platform")
