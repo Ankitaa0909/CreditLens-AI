@@ -7,5 +7,4 @@ google-generativeai
 python-dotenv
 matplotlib
 openpyxl
-sqlite3
 pdfplumber
