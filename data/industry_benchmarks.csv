@@ -1,0 +1,11 @@
+Industry,AverageRevenueGrowth(%),AverageGSTCompliance(%),AverageCashFlow,AverageUPITransactions,RiskLevel
+Retail,12,95,85000,1800,Medium
+Manufacturing,18,98,150000,950,Low
+IT Services,22,99,220000,650,Low
+Food Processing,15,94,125000,1200,Medium
+Healthcare,20,99,260000,550,Low
+Education,10,96,95000,700,Low
+Construction,14,91,175000,500,High
+Transport,13,93,145000,850,Medium
+Agriculture,11,90,75000,400,High
+Wholesale,16,97,180000,1500,Low
