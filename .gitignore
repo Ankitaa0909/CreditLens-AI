@@ -1,25 +1,16 @@
-__pycache__/
+# Python Virtual Environment
+venv/
 
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
 .env
 
-*.db
-
-*.sqlite
-
-*.csv
-
-*.xlsx
-
-*.pdf
-
-*.log
-
-.vscode/
-
-.idea/
-
+# Streamlit local configuration
 .streamlit/
 
+# OS files
 .DS_Store
-
-*.pyc
+Thumbs.db
