@@ -1,7 +1,34 @@
-Check
+GST_COLUMNS = [
+    "Month",
+    "Sales",
+    "GST",
+    "GSTRFiled"
+]
 
-GST columns
+UPI_COLUMNS = [
+    "Month",
+    "Transactions",
+    "Amount"
+]
 
-UPI columns
+EPFO_COLUMNS = [
+    "Month",
+    "Employees"
+]
 
-EPFO columns
+BANK_COLUMNS = [
+    "Month",
+    "Balance"
+]
+
+
+def validate_columns(df, required_columns):
+
+    missing = []
+
+    for col in required_columns:
+
+        if col not in df.columns:
+            missing.append(col)
+
+    return missing
